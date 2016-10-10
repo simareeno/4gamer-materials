@@ -1,0 +1,131 @@
+.article {
+	width: 1148px;
+	margin: 0 auto;
+}
+
+.title {
+	font-size: 46px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.subtitle {
+	font-size: 22px;
+}
+
+.intro {
+	margin-top: 70px;
+	margin-bottom: 40px;
+}
+
+.cover img {
+	width: 100%;
+}
+
+.body {
+	font-family: "Arial", sans-serif;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 10px;
+}
+
+.text {
+	max-width: 740px;
+}
+
+.columns {
+	display: flex;
+	justify-content: space-between;
+}
+
+.left-column {
+	width: 828px;
+}
+
+.right-column {
+	width: 280px;
+}
+
+.popular__heading, .socials__heading {
+	font-weight: bold;
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+
+.socials__heading {
+	margin-top: 100px;
+}
+
+.meta {
+	display: flex;
+	align-items: flex-end;
+	color: #585858;
+	font-size: 13px;
+}
+
+.author {
+	text-transform: uppercase;
+	letter-spacing: 0.6px;
+	font-weight: bold;
+}
+
+.date, .views {
+	margin-left: 20px;
+}
+
+.date img {
+	position: relative;
+	top: 2px;
+	margin-right: 5px;
+}
+
+.views img {
+	margin-right: 5px;
+}
+
+.share {
+	margin-top: 24px;
+}
+
+.share__vk, .share__fb {
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+}
+
+.share__vk {
+	background: url(../img/vk.png) center no-repeat #5a7fa6;
+}
+
+.share__fb {
+	background: url(../img/fb.png) center no-repeat #2b488b;
+	margin-top: 10px;
+}
+
+.tags {
+
+}
+
+.tag {
+	display: inline-block;
+	padding: 8px 12px;
+	background: #ebebeb;
+	border-radius: 5px;
+	cursor: pointer;
+	color: #505050;
+	font-size: 16px;
+}
+
+.read-also {
+	margin-top: 70px;
+}
+
+.read-also__materials .material {
+	display: inline-block;
+}
+
+.read-also__heading {
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 15px;
+}

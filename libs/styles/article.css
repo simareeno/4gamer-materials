@@ -1,0 +1,32 @@
+.article {
+	width: 1116px;
+	margin: 0 auto;
+}
+
+.title {
+	font-size: 46px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.subtitle {
+	font-size: 22px;
+}
+
+.intro {
+	margin-top: 70px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.cover img {
+	width: 100%;
+}
+
+.body {
+	max-width: 666px;
+	font-family: "Arial", sans-serif;
+	font-size: 18px;
+	line-height: 28px;
+	margin: 0 auto;
+}

@@ -1,0 +1,10 @@
+.header {
+	height: 68px;
+	background: url(../img/header.png) no-repeat center #111;
+}
+
+.menu {
+	height: 74px;
+	background: url(../img/menu.png) no-repeat center;
+	border-bottom: 2px solid #e1e1e1;
+}

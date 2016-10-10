@@ -1,0 +1,21 @@
+body {
+	margin: 0 0 80px;
+	font-family: 'Proxima Nova', Arial, sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: #2963d6;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+p {
+	font-family: "Arial", sans-serif;
+	font-size: 18px;
+	line-height: 28px;
+	margin: 16px 0;
+	color: rgba(0, 0, 0, 0.8);
+}

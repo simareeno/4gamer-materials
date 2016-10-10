@@ -1,0 +1,19 @@
+{
+  "name": "4gamer-materials",
+  "version": "1.0.0",
+  "description": "2.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simareeno/4gamer-materials.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simareeno/4gamer-materials/issues"
+  },
+  "homepage": "https://github.com/simareeno/4gamer-materials#readme"
+}
