@@ -1,6 +1,27 @@
 .header {
 	height: 68px;
-	background: url(../img/header.png) no-repeat center #111;
+	background: #111;
+	display: flex;
+	justify-content: center;
+	/*background: url(../img/header.png) no-repeat center #111;*/
+}
+
+.header__left {
+	position: absolute;
+	left: 20px;
+	top: 36px;
+}
+
+.header__right {
+	position: absolute;
+	right: 20px;
+	top: 33px;
+}
+
+.header__center {
+	transform: scale(.5);
+	position: relative;
+	top: -6px;
 }
 
 .menu {

@@ -85,17 +85,14 @@
 }
 
 .share {
-	display: flex;
-	align-items: flex-end;
-	position: absolute;
-	left: 20px;
+	margin-top: 20px;
+	top: 65px;
 }
 
 .share__vk, .share__fb {
 	width: 40px;
 	height: 40px;
 	cursor: pointer;
-	border-radius: 100%;
 	transition: box-shadow .2s ease-in-out;
 }
 
@@ -107,11 +104,26 @@
 .share__fb {
 	color: #2b488b;
 	background: url(../img/fb.png) center no-repeat #2b488b;
-	margin-left: 16px;
+	margin-top: 10px;
 }
 
-.tags {
+.share-big {
+	color: white;
+	display: flex;
+	margin-top: 20px;
+}
 
+.share-big div {
+	padding: 8px 10px 8px 40px;
+}
+
+.share-big__vk {
+	background: url(../img/vk.png) 10px no-repeat #5a7fa6;
+}
+
+.share-big__fb {
+	background: url(../img/fb.png) 15px no-repeat #2b488b;
+	margin-left: 20px;
 }
 
 .close {
@@ -135,7 +147,7 @@
 .articles {
 	display: flex;
 	justify-content: space-between;
-	width: 860px;
+	width: 1116px;
 	align-items: center;
 }
 
