@@ -6,7 +6,7 @@ $(function() {
 			var navigation = $(".navigation");
 	    console.log(scroll);
 
-			if (scroll > 750) {
+			if (scroll > 810) {
 				stick(share);
 			} else {
 				unStick(share);

@@ -1,0 +1,19 @@
+.footer {
+	margin-top: 80px;
+	display: flex;
+	justify-content: center;
+	position: relative;
+	font-size: 13px;
+}
+
+.footer__left {
+	position: absolute;
+	left: 20px;
+	color: #666;
+}
+
+.footer__right {
+	position: absolute;
+	right: 20px;
+	color: #4578dc;
+}

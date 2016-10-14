@@ -5,13 +5,37 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="libs/styles/header.css">
+	<link rel="stylesheet" href="libs/styles/footer.css">
 	<link rel="stylesheet" href="libs/styles/global.css">
 	<link rel="stylesheet" href="libs/styles/article.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
+	<script src="libs/scripts/jquery.sticky-kit.min.js" charset="utf-8"></script>
 	<title>4gamer article</title>
 </head>
 <body>
-	<div class="header"></div>
-	<div class="menu"></div>
+	<!-- <div class="close"></div> -->
+	<div class="header">
+		<div class="header__left"><img src="libs/img/left.png" alt=""></div>
+		<div class="header__center"><img src="libs/img/logo.png" alt=""></div>
+		<div class="header__right"><img src="libs/img/right.png" alt=""></div>
+	</div>
+	<div class="navigation-wrapper">
+		<div class="navigation">
+			<div class="articles">
+				<div class="articles__left">
+					<div class="articles__article article__previous">Как &laquo;Фогеймер&raquo; в&nbsp;Pokemon-кафе ходил</div>
+				</div>
+				<div class="articles__right">
+					<div class="articles__article article__next">Музей геноцида в&nbsp;Камбодже выставил охрану против игроков в&nbsp;Pokemon&nbsp;Go</div>
+				</div>
+			</div>
+			<div class="close">
+				<svg width="38.76" height="38.188" viewBox="0 0 38.76 38.188">
+					<path d="M1501.38,226.111l-2.82,2.829L1482,212.384l-16.56,16.556-2.82-2.829,16.55-16.556-15.97-15.971,2.83-2.828,15.97,15.97,15.97-15.97,2.83,2.828-15.97,15.971Z" transform="translate(-1462.62 -190.75)"/>
+				</svg>
+			</div>
+		</div>
+	</div>
 	<div class="article">
 		<div class="intro">
 			<div class="title">Steam-обоз: Mafia&nbsp;3</div>
@@ -21,8 +45,47 @@
 			<img src="libs/img/article-cover.jpg" alt="">
 		</div>
 		<div class="body">
-			<p class="body__single">Похоже, разработчики <strong>Mafia 3</strong>&nbsp;сели в&nbsp;глубокую лужу. Количество технических проблем, с&nbsp;которым столкнулись игроки на&nbsp;старте, побило антирекорды <strong>Cossacks&nbsp;3</strong>, <strong>No&nbsp;Man’s Sky</strong> и&nbsp;<strong>Batman: Arkham Knight</strong>. Если кратко, то&nbsp;в&nbsp;<a href="vyshla-mafia-3/">день релиза</a> творилась катастрофа. Авторы пообещали оперативно исправить все оплошности, среди которых игроков особенно раздражает принудительное ограничение в&nbsp;30&nbsp;FPS. На&nbsp;момент подготовки материала проблемы решены не&nbsp;были. Слово рассерженным игрокам:</p>
+			<img style="margin-top: 40px;" src="libs/img/article-content.png" alt="">
+		</div>
+		<div class="read-also">
+			<div class="read-also__heading">Материалы по теме</div>
+			<div class="read-also__materials">
+				<div class="material">
+					<img src="libs/img/material-2x.png" alt="">
+				</div>
+				<div class="material">
+					<img src="libs/img/material-3.png" alt="">
+				</div>
+				<div class="material">
+					<img src="libs/img/material-4.png" alt="">
+				</div>
+			</div>
+		</div>
+		<div class="read-also">
+			<div class="read-also__heading">Популярные материалы</div>
+			<div class="read-also__materials">
+				<div class="material">
+					<img src="libs/img/material-2x.png" alt="">
+				</div>
+				<div class="material">
+					<img src="libs/img/material-3.png" alt="">
+				</div>
+				<div class="material">
+					<img src="libs/img/material-4.png" alt="">
+				</div>
+			</div>
+		</div>
+		<div class="comments">
+			<img src="libs/img/comments.png" alt="">
 		</div>
 	</div>
+
+	<div class="footer">
+		<div class="footer__left">© 2016. Innova Co. S.a r.l.</div>
+		<div class="footer__center"><img src="libs/img/footer-center.png" alt=""></div>
+		<div class="footer__right">Наш паблик ВКонтакте</div>
+	</div>
+
+	<script src="libs/scripts/navigation2.js" charset="utf-8"></script>
 </body>
 </html>
